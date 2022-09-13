@@ -1,0 +1,268 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.7)  13 SEP 2022 13:46
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./feladat_1.tex
+(feladat_1.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-07-04>
+(C:\Users\gyuri\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\gyuri\AppData\Local\Programs\MiKTeX\tex/latex/base\bk10.clo
+File: bk10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\gyuri\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/06/26 3.77 The Babel package
+\babel@savecnt=\count194
+\U@D=\dimen139
+\l@unhyphenated=\language79
+
+(C:\Users\gyuri\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count195
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\gyuri\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\gyuri\AppData\Local\Programs\MiKTeX\tex/latex/babel-hungarian\magyar.
+ldf
+Language: magyar 2019/01/14 v1.5c Magyar (Hungarian) support for babel
+Package babel Info: Making ` an active character on input line 2819.
+\c@footnote@add=\count196
+\c@footnote@ch=\count197
+))
+(C:\Users\gyuri\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/hu\babel
+-magyar.tex
+Package babel Info: Importing font and identification data for magyar
+(babel)             from babel-hu.ini. Reported on input line 11.
+)
+(C:\Users\gyuri\AppData\Local\Programs\MiKTeX\tex/latex/hulipsum\hulipsum.sty
+Package: hulipsum 2020/11/03 v1.1 Hungarian dummy text (Lorum ipse)
+\c@hulipsum@count=\count198
+)
+(C:\Users\gyuri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\gyuri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Users\gyuri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\gyuri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count199
+\Gm@cntv=\count266
+\c@Gm@tempcnt=\count267
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks17
+
+(C:\Users\gyuri\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+
+(C:\Users\gyuri\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count268
+\l__pdf_internal_box=\box51
+) (feladat_1.aux)
+\openout1 = `feladat_1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+
+
+LaTeX Warning: Please use \usepackage{t1enc} with
+               \usepackage[magyar]{babel}, to get accented chars hyphenated.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 28.45274pt
+* modes: twoside 
+* h-part:(L,W,R)=(85.35826pt, 358.22021pt, 142.26378pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=358.22021pt
+* \textheight=556.47656pt
+* \oddsidemargin=41.54102pt
+* \evensidemargin=69.99379pt
+* \topmargin=-6.94011pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=85.35826pt
+* \marginparsep=14.22636pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Users\gyuri\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+LaTeX Info: Redefining \cal on input line 583.
+LaTeX Info: Redefining \mit on input line 584.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 15.
+ [1
+
+
+
+{C:/Users/gyuri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
+
+] (feladat_1.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1.
+)
+\tf@toc=\write3
+\openout3 = `feladat_1.toc'.
+
+ [1]
+Overfull \hbox (3.00249pt too wide) in paragraph at lines 34--34
+[]\OT1/cmr/m/n/10 Az ^^?utles ^^?onc^^Seje eset^^Sen egez}o pl^^Sast k^^?ozvet-
+len ad^^So ^^Ses f^^Ses}o evez}o amus nem b^^Saskodja,
+ []
+
+
+Overfull \hbox (5.83615pt too wide) in paragraph at lines 34--34
+\OT1/cmr/m/n/10 azon-ban az kas^^Sagot s^^Segi sza-vum-nak ag-gat, ugyan^^Sugy,
+ mint a h^^Sams^^Sagok ^^Saltal sz^^Sajozott
+ []
+
+[1
+
+] [2]
+Overfull \hbox (3.00249pt too wide) in paragraph at lines 37--37
+[]\OT1/cmr/m/n/10 Az ^^?utles ^^?onc^^Seje eset^^Sen egez}o pl^^Sast k^^?ozvet-
+len ad^^So ^^Ses f^^Ses}o evez}o amus nem b^^Saskodja,
+ []
+
+
+Overfull \hbox (5.83615pt too wide) in paragraph at lines 37--37
+\OT1/cmr/m/n/10 azon-ban az kas^^Sagot s^^Segi sza-vum-nak ag-gat, ugyan^^Sugy,
+ mint a h^^Sams^^Sagok ^^Saltal sz^^Sajozott
+ []
+
+[3
+
+] [4] [5
+
+] [6
+
+] [7] [8] [9]
+Overfull \hbox (2.43921pt too wide) in paragraph at lines 52--53
+ \OT1/cmr/bx/n/10 0.3.1.1.1.1. Sub-pa-ra-gra-ph[] \OT1/cmr/m/n/10 L^^Sorum ip-s
+e olyan bor-zaszt^^Soan cog^^Salis pat^^Sas, ami
+ []
+
+[10] [11
+
+] [12]
+Overfull \hbox (8.47363pt too wide) in paragraph at lines 68--69
+[]\OT1/cmr/m/n/10 A vez-vet-ben ^^Sevente t^^?obb mint ens^^Seg g^^Seszet reg-n
+et}o em-tes-ked^^Ses szomb^^Sodik,
+ []
+
+[13
+
+] [14
+
+]
+Overfull \hbox (3.31914pt too wide) in paragraph at lines 74--74
+[]\OT1/cmr/m/n/10 L^^Sorum ip-se olyan bor-zaszt^^Soan cog^^Salis pat^^Sas, ami
+ fog^^Sas
+ []
+
+
+Overfull \hbox (2.67088pt too wide) in paragraph at lines 74--75
+\OT1/cmr/m/n/10 szont ment}o al-va le-het-ne. Az eren lany^^Soshoz mint-
+ []
+
+
+Overfull \hbox (0.79132pt too wide) in paragraph at lines 74--75
+\OT1/cmr/m/n/10 egy sz^^?ovel k^^?obm^^Seternyi rad^^Socot kell zsib^^Salnia, a
+mi
+ []
+
+[15
+
+] (feladat_1.aux) ) 
+Here is how much of TeX's memory you used:
+ 3234 strings out of 478338
+ 58285 string characters out of 2836701
+ 548278 words of memory out of 3000000
+ 21688 multiletter control sequences out of 15000+600000
+ 475405 words of font info for 48 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,8n,62p,1895b,359s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\gyuri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
+en/ec/dpi600\tcrm0600.pk> <C:\Users\gyuri\AppData\Local\MiKTeX\fonts/pk/ljfour/
+jknappen/ec/dpi600\tcrm0700.pk><C:/Users/gyuri/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/gyuri/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/gyuri/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gyuri/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/gyur
+i/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Us
+ers/gyuri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb
+>
+Output written on feladat_1.pdf (18 pages, 116217 bytes).
+PDF statistics:
+ 100 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
