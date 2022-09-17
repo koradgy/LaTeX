@@ -4,30 +4,33 @@
 \usepackage[inner=3cm,outer=5cm]{geometry}
 \geometry{bindingoffset=1cm}
 \geometry{marginparwidth=3cm,marginparsep=0.5cm}
+\usepackage{fancyhdr}
+
 
 \begin{document}
 \title{Bevezetés}
 \author{Kórád György}
 \date{\today}
-
-
-
 \maketitle
 
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \setcounter{tocdepth}{5}
 \tableofcontents{\pagenumbering{roman}}
-
+\pagenumbering{gobble}
 \clearpage
 
 %\begin{abstract}
 %\hulipsum[1]
 %\hulipsum[1]
 %\footnote{Lábjegyzet szövege}
-%
 %\end{abstract}
+
+
+\chapter{Első Section}\footnote{Section footnote}
 \pagenumbering{arabic}
-\section{Első Section}\footnote{Section footnote}
+\pagestyle{fancy}
+\fancyhead[LE,RO]{\thepage}
+\cfoot{}
 \hulipsum[1]
 \subsection{Sub 1}
 \hulipsum
@@ -57,7 +60,7 @@
 \hulipsum[1]
 \subsection{}
 \hulipsum[1]
-\marginpar{margó szöveg pls}
+\marginpar{margó szöveg példa}
 \section{Függelék 2}
 \subsection{}
 \hulipsum[1]
