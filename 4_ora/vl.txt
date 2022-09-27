@@ -1,0 +1,22 @@
+package teglalap;
+import java.util.*;
+public class Main {
+	static Scanner input = new Scanner(System.in);
+	public static void main(String[] args) {
+		Teglalap a = new Teglalap(20,21);
+		Teglalap b = new Teglalap(20,22);
+		Teglalap c = a;
+		
+		System.out.println(a.toString());
+		System.out.println(b.toString());
+		System.out.println(c.toString());
+		
+		a.setA_oldal(30);
+		a.setB_oldal(69);
+		System.out.println("--------------------");
+		System.out.println(a.toString());
+		System.out.println(b.toString());
+		System.out.println(c.toString());
+		
+		a.setA_oldal(20);
+		a.setB_oldal(22);

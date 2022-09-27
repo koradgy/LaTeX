@@ -1,0 +1,86 @@
+\documentclass{article}
+\usepackage{amsthm}
+\usepackage{hulipsum}
+\theoremstyle{plain}\newtheorem{tet}{Tétel}
+\newtheorem{defin}[tet]{Definíció}
+\theoremstyle{plain}\newtheorem{lem}[tet]{Lemma}
+\newtheorem{fel}{Feladat}[section]
+\newtheorem*{megj}{Megjegyzés}
+\usepackage{float}
+\newfloat{forraskod}{hbt}{lop}
+\usepackage{listings}
+\usepackage{algpseudocode}
+
+
+\begin{document}
+\begin{tet} ez egy tétel \end{tet}
+\begin{tet}[Gyros pitában] ez egy másik tétel \end{tet}
+\begin{defin}Nagyon definíció \end{defin}
+\begin{defin}[Úristen very big]Nagyon nagyon definíció \end{defin}
+\begin{lem}
+aztaz eget
+\end{lem}
+
+\begin{fel}
+szöveg
+\section{Feladat}
+szöveg
+\section{Feladat}
+szöveg
+\section{Feladat}
+szöveg
+
+\end{fel}
+
+\begin{megj}
+Tehát megjegyzés
+\end{megj}
+\clearpage
+\begin{huge}
+Második feladat
+\end{huge}
+
+
+\verb\LaTeX \LaTeX \LaTeX
+
+\begin{verbatim}
+\begin{megj}
+Tehát megjegyzés
+\end{megj}
+\end{verbatim}
+\verb|\texttt{verbatim}| szöveg
+
+\begin{verbatim}
+\floatname{forraskod}
+\end{verbatim}
+
+\clearpage
+\begin{huge}
+Harmadik feladat
+\end{huge}
+
+
+\lstinputlisting[language=java,tabsize=7,numbers=left,stepnumber=4,frame=shadowbox]{vl.txt}
+\clearpage
+\begin{huge}
+Negyedik feladat
+\end{huge}
+
+\begin{algorithmic}
+\Procedure{Quickshort}{@A,a,b}
+\Require Írható tömb
+\Require 1 $\leq$ a $\leq$ b $\leq$ Hossz[A] indexek
+\Ensure a-b indextartományt rendezzük
+\If{a=b}
+\\
+\Return a
+\Else
+\State{FELOSZT(@A,a,b,A(a),@q)}
+\State{QUICKSORT(@A,a,q)}
+\State{QUICKSORT(@A,q+1,b)}
+\State return A
+\EndIf
+\EndProcedure
+\end{algorithmic}
+
+\end{document}
