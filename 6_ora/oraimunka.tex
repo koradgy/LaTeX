@@ -1,0 +1,118 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{xcolor}
+
+
+\begin{document}
+
+a) Az $\frac{1}{n^2}$ sorösszege:
+\[
+\sum_{n=1}^\infty \frac{1}{n^2}=\frac{\pi^2}{6}.
+\]
+b) Az n! (n faktoriális) a számok szorzata 1-től n-ig, azaz
+\[
+n! := \prod_{k=1}^n k=1 \cdot 2 \cdot 3 \cdot \cdots \cdot n.
+\]
+Konvenció szerint 0!=1
+\\
+c) Legyen 0 $\leq$ k $\leq$ n a binomiális együttható
+\[
+\binom{n}{k} = \frac{n!}{k! \cdot (n - k)!}
+\]
+ahol a faktoriálist (\textcolor{red}{1}) szerint definiáljuk. 
+\\
+d) Az előjel- azaz szignum függvényt a következőképpen definiáljuk:
+\[
+sgn(x) := 
+\begin{cases}
+1 \text{ ha x $>$ 0},\\
+0 \text{ ha x = 0} ,\\
+-1 \text{ ha x $<$ 0},
+\end{cases}
+\]
+
+\clearpage
+\begin{huge}
+2: Deretmináns
+\end{huge}
+
+a) Legyen
+\[
+[n] := \{1, 2, 3, \cdots ,n \}
+\]
+a természetes számok halmaza 1-től n-ig.\\
+b) Egy n-edredű \emph{permutáció} $\sigma$ bijekció [n]-ből [n]-be. Az n-edrendű permutációk halmazát, az ún. szimmetrikus csoportot, Sn-nel jelöljük.\\
+c) Egy $\sigma$ $\in$ Sn permutációban inverziónak nevezünk egy (i,j) párt ha i $<$ j, de $\sigma$i $>$ $\sigma$j.\\
+d)Egy  $\sigma$ $\in$ Sn permutáció paritásának az inverziók számát nevezzük:
+\[
+\mathcal{I}(\sigma) := \vert \{(i,j) | i,j \in [n], i<j, \sigma_{i} > \sigma_{j}\} \vert
+\]
+\\
+e) Legyen A $\in$ $\mathbb{R}^{n \times n}$ , egy n $\times$ n-es (négyzetes) valós mátrix:
+
+\[
+A=
+\begin{pmatrix}
+a_{11} & a_{12} & \dots & a_{1n}\\
+a_{21} & a_{22} & \dots & a_{2n}\\
+\vdots & \vdots & \ddots & \vdots\\
+a_{n1} & a_{n2} & \dots & a_{nn}
+\end{pmatrix}
+\]
+\\
+A mátrix determinánsát a következőképpen definiáljuk:
+
+\[
+A=
+\begin{vmatrix}
+a_{11} & a_{12} & \dots & a_{1n}\\
+a_{21} & a_{22} & \dots & a_{2n}\\
+\vdots & \vdots & \ddots & \vdots\\
+a_{n1} & a_{n2} & \dots & a_{nn}
+\end{vmatrix}
+ := \sum_{\sigma \in S_{n}} (-1)^{\mathcal{I}(\sigma)} \prod_{i=1}^n a_{i_{\sigma_{i}}}
+\]
+\clearpage
+
+\begin{huge}
+3. Logikai azonosság
+\end{huge}
+
+Tekintsük az L = \{0 , 1\} halmazt, és rajta a következő, igazságtáblával definiált műveleteket:
+\\
+\\
+\begin{table}[!htb]
+
+\begin{tabular}{c||c}
+$\mathcal{X}$ & $\overline{X}$ \\ \hline
+0 & 1 \\
+1 & 0
+
+\end{tabular}
+
+\begin{tabular}{c|c||c|c|c}
+$\mathcal{X}$ & $\mathcal{Y}$ & x$\lor$y & x$\land$y & x $\to$ y\\ \hline
+0 & 0 & 0 & 0 & 1 \\
+0 & 1 & 1 & 0 & 1 \\
+1 & 0 & 1 & 0 & 0 \\
+1 & 1 & 1 & 1 & 1
+\end{tabular}
+\end{table}
+
+Legyenek a, b, c, d $\in$ L. Belátjuk a következő azonosságot.
+
+\[
+(a \land b \land c) \to d = a \to (b \to (c \to d)).
+\]
+
+A következő azonosságokat bizonyítás nélkül használjuk.
+
+
+ 
+
+\end{document}
+
+
