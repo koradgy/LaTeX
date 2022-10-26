@@ -1,0 +1,10 @@
+\select@language {magyar} \beamer@sectionintoc {1}{frame 1}{1}{0}{1}
+\select@language {magyar} \beamer@sectionintoc {2}{tartalom}{3}{0}{2}
+\select@language {magyar} \beamer@sectionintoc {3}{verbatim}{4}{0}{3}
+\select@language {magyar} \beamer@subsectionintoc {3}{1}{subsection 1}{4}{0}{3}
+\select@language {magyar} \beamer@sectionintoc {4}{frame tördelés}{5}{0}{4}
+\select@language {magyar} \beamer@sectionintoc {5}{2 oszlop}{8}{0}{5}
+\select@language {magyar} \beamer@subsectionintoc {5}{1}{subsection 2}{8}{0}{5}
+\select@language {magyar} \beamer@sectionintoc {6}{blockos cula}{11}{0}{6}
+\select@language {magyar} \beamer@sectionintoc {7}{proof theorem}{14}{0}{7}
+\select@language {magyar} \beamer@sectionintoc {8}{semiverbatim}{15}{0}{8}

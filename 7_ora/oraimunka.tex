@@ -1,0 +1,56 @@
+\documentclass{article}
+
+\usepackage{ifthen}
+\usepackage{pgffor}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{array}
+\DeclareMathOperator{\argmax}{arg max}
+
+\newenvironment{sajat}[1]%
+{\vspace{1ex}\hrule\vspace{1ex}%
+\begin{center}\end{center}}%
+{\vspace{1ex}\hrule\vspace{1ex}}
+
+\newcounter{kgitem}
+
+
+\begin{document}
+\begin{huge}
+1.feladat
+\end{huge}
+\\
+a)
+\[
+x^* := \underset{x \in [1,0]}{\argmax} x \log_{2}(x)
+\]
+\\
+b)
+\[
+\lceil x \rceil , \lceil \frac{5}{3} \rceil
+\]
+\\
+c)
+\[
+E \left[\sum_{i=1}^n X_i \right] = E \left[E\left[ \sum_{i=1}^n X_i \bigg\vert N \right]\right]
+\]
+
+\clearpage
+\begin{huge}
+2.feladat
+\end{huge}
+\begin{sajat}{Title}
+\lipsum[1]
+\end{sajat}
+\clearpage
+
+\begin{huge}
+3.feladat
+\end{huge}
+\kgitem
+\end{document}

@@ -1,0 +1,133 @@
+\documentclass[12pt,aspectratoio=169]{beamer}
+\usepackage{xcolor}
+\usepackage{amsthm}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usetheme{Berlin}
+\usecolortheme{rose}
+
+\title{Bevezetés a beamer-be}
+\author{Én}
+\date{2022}
+
+
+\begin{document}
+
+
+
+\section{frame 1}
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{1.feladat}
+\framesubtitle{alcím}
+szöveg szöveg 
+\end{frame}
+
+\section{tartalom}
+\begin{frame}
+\frametitle{Table of contents}
+\tableofcontents
+\end{frame}
+
+
+\section{verbatim}
+\subsection{subsection 1}
+\begin{frame}[fragile]
+\frametitle{1.feladat}
+\framesubtitle{alcím}
+\begin{verbatim}
+ez a rész verbatim környezetben van [fragile]
+bigyusszal lehet megoldani
+\end{verbatim}
+\end{frame}
+
+\section{frame tördelés}
+\begin{frame}[allowframebreaks]
+\frametitle{Zagyva szöveg}
+\lipsum[1-2]
+\end{frame}
+
+\section{2 oszlop}
+\subsection{subsection 2}
+\begin{frame}
+\frametitle{2. feladat}
+\framesubtitle{oszlopos}
+\begin{columns}[c]
+\begin{column}{.5\linewidth}
+\begin{itemize}
+\item<1-> lista elem 1
+\item<2-> lista elem 2
+\item<3-> \alert<3> {lista elem 3}
+\end{itemize}
+\begin{enumerate}
+\item lista elem 1
+\item lista elem 2
+\item lista elem 3
+\end{enumerate}
+\end{column}
+
+\begin{column}{.5\linewidth}
+\begin{figure}[h]
+\caption{Ez a háttérképem}
+\centering
+\includegraphics[scale=.08]{wall.jpg}
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+
+\section{blockos cula}
+\begin{frame}
+\frametitle{2. feladat}
+\framesubtitle{Block, Exampleblock, Alertblock}
+
+\begin{block}{Block Címe}
+Block tartalma 
+\end{block}
+\pause
+\begin{exampleblock}{Exampleblock címe}
+Exampleblock tartalma
+\end{exampleblock}
+\pause
+\begin{alertblock}{Alertblock címe}
+Alertblock tartalma
+\end{alertblock}
+
+\begin{block}{pause parancs}
+új dia minden pause parancs után 
+\end{block}
+
+\end{frame}
+
+
+\section{proof theorem}
+\begin{frame}
+\frametitle{2. feladat}
+\framesubtitle{Proof, Theorem}
+
+\begin{proof}
+Bizonyítás nagyon szép nagyon jó
+\end{proof}
+\begin{theorem}
+Theorem nagyon szép nagyon jó
+\end{theorem}
+\end{frame}
+
+\section{semiverbatim}
+\begin{frame}
+\frametitle{2. feladat}
+\framesubtitle{semiverbatim}
+\begin{semiverbatim}
+\LaTeX
+
+itt most nem tudom mi történik :(
+\end{semiverbatim}
+\end{frame}
+
+
+\end{document}
+
+

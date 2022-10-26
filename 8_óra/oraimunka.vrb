@@ -1,0 +1,6 @@
+\frametitle{1.feladat}
+\framesubtitle{alcím}
+\begin{verbatim}
+ez a rész verbatim környezetben van [fragile]
+bigyusszal lehet megoldani
+\end{verbatim}
