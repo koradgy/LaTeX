@@ -4,6 +4,15 @@
 \usepackage[magyar]{babel}
 \usepackage{graphicx}
 \usepackage{subcaption}
+\usepackage{t1enc}
+\usepackage{hulipsum}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+
 
 
 \begin{document}
@@ -85,7 +94,43 @@
 \begin{tabular}{r|ll}
 
 \end{tabular}
+\clearpage
+\listoftables
+\newpage
 
+\begin{table}
+\begin{tabular}{p{3em}||rcl|}
+ & egy & kettő & három \\ \hline \hline
+Helló világ! & négy & öt & hat \\ \cline{2-4}
+ & hét & nyolc & kilenc \\ \cline{2-2} \cline{4-4}
+lórum ipse & tíz & &tizenkettő \\ \hline
+\end{tabular}
+\caption{első táblázat}
+\end{table}
+
+
+\begin{table}
+\rowcolors[]{2}{blue!20}{yellow!20}
+\begin{tabular}{r|c|l}
+egy & kettő & három \\ \hline
+négy & öt & hat \\
+hét & nyolc & kilenc \\
+tíz & &tizenkettő \\
+\end{tabular}
+\caption{második táblázat}
+\end{table}
+
+\hulipsum[2]
+\begin{wraptable}[8]{r}[\marginparwidth]{5cm}
+\begin{tabular}{r!{\color{red}\vline}c|l|}
+egy & \multicolumn{2}{c|}{kettő}\\ \hline
+\multirow{2}{2em}{négy} & öt & hat \\ \cline{2-3}
+& \multicolumn{2}{c|}{\multirow{2}{2em}{nyolc}} \\ \cline{1-1}
+tíz & \multicolumn{2}{c|}{} \\ \hline
+\end{tabular}
+\caption{harmadik táblázat}
+\end{wraptable}
+\hulipsum
 
 \end{document}
 

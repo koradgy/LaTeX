@@ -1,0 +1,1768 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.7)  17 SEP 2022 14:39
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./hasábos.tex
+(hasábos.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-07-04>
+(C:\Users\home\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\home\AppData\Local\Programs\MiKTeX\tex/latex/base\bk10.clo
+File: bk10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\home\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/06/26 3.77 The Babel package
+\babel@savecnt=\count194
+\U@D=\dimen139
+\l@unhyphenated=\language79
+
+(C:\Users\home\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count195
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\home\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\home\AppData\Local\Programs\MiKTeX\tex/latex/babel-hungarian\magyar.l
+df
+Language: magyar 2019/01/14 v1.5c Magyar (Hungarian) support for babel
+Package babel Info: Making ` an active character on input line 2819.
+\c@footnote@add=\count196
+\c@footnote@ch=\count197
+))
+(C:\Users\home\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/hu\babel-
+magyar.tex
+Package babel Info: Importing font and identification data for magyar
+(babel)             from babel-hu.ini. Reported on input line 11.
+)
+(C:\Users\home\AppData\Local\Programs\MiKTeX\tex/latex/hulipsum\hulipsum.sty
+Package: hulipsum 2020/11/03 v1.1 Hungarian dummy text (Lorum ipse)
+\c@hulipsum@count=\count198
+)
+(C:\Users\home\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\home\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Users\home\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\home\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count199
+\Gm@cntv=\count266
+\c@Gm@tempcnt=\count267
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks17
+
+(C:\Users\home\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\home\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count268
+\l__pdf_internal_box=\box51
+) (hasábos.aux)
+\openout1 = `hasábos.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+
+
+LaTeX Warning: Please use \usepackage{t1enc} with
+               \usepackage[magyar]{babel}, to get accented chars hyphenated.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 28.45274pt
+* modes: twoside 
+* h-part:(L,W,R)=(85.35826pt, 358.22021pt, 142.26378pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=358.22021pt
+* \textheight=556.47656pt
+* \oddsidemargin=41.54102pt
+* \evensidemargin=69.99379pt
+* \topmargin=-6.94011pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=85.35826pt
+* \marginparsep=14.22636pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Users\home\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+LaTeX Info: Redefining \cal on input line 583.
+LaTeX Info: Redefining \mit on input line 584.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 15.
+ [1
+
+
+
+
+{C:/Users/home/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
+
+
+
+] (hasábos.toc)
+\tf@toc=\write3
+\openout3 = `hasábos.toc'.
+
+
+[3]
+1. fejezet.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 32.
+
+Underfull \hbox (badness 1681) in paragraph at lines 32--36
+[][] \OT1/cmr/m/n/10 TEST  L^^Sorum ip-se olyan bor-
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 38--38
+\OT1/cmr/m/n/10 egy sz^^?ovel k^^?obm^^Seternyi rad^^Socot kell
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 38--38
+\OT1/cmr/m/n/10 b^^Saskodja, azon-ban az kas^^Sagot s^^Segi
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 38--38
+\OT1/cmr/m/n/10 sza-vum-nak ag-gat, ugyan^^Sugy, mint a
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 38--38
+\OT1/cmr/m/n/10 ^^Ses gy^^?ont}o pl^^Sasok. Az ^^?utle-sek iz-
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 38--38
+\OT1/cmr/m/n/10 angj^^Sanak szo-tyogv^^Sara a j^^Satlan ^^?utles
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 38--38
+\OT1/cmr/m/n/10 az-az tiz}o m^^Setr^^Sacat 1-t}ol, az aks^^Sag
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 38--38
+\OT1/cmr/m/n/10 gyen her^^Sans^^Sag eset^^Sen tiz}o t}os^^Seg mi-
+ []
+
+
+Underfull \vbox (badness 6559) has occurred while \output is active []
+
+ [1
+
+
+
+]
+Underfull \hbox (badness 2809) in paragraph at lines 38--38
+\OT1/cmr/m/n/10 uhols^^Sag, amit vol^^Satban csa-torl^^Saznak
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 38--38
+\OT1/cmr/m/n/10 fa-rogj^^Sak a kressz^^Soban szen-cen, z^^Salt
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 38--38
+\OT1/cmr/m/n/10 a log^^Sos bom-ta-lan sza-toz^^Sas. Ha-nem
+ []
+
+
+Underfull \vbox (badness 3386) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 38--38
+[]\OT1/cmr/m/n/10 E haj-cih}o hit-let-ke-re a tez}o cu-kak
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 38--38
+\OT1/cmr/m/n/10 z^^Salt anya-tos szam-iss^^Sag ^^Saltal hos-kony
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 38--38
+\OT1/cmr/m/n/10 Egy a j^^?ovet}o do-tang v^^Seg^^Sen 164 te-
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 38--38
+\OT1/cmr/m/n/10 ped-ness^^Seg^^Set, il-let-ve h^^Suzan^^Sas veg}oben
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 38--38
+\OT1/cmr/m/n/10 r^^Sag^^S^^Ptott^^Sak a foks^^Sagokat a nyuk-szok
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]\OT1/cmr/m/n/10 Az itt k^^Sep^^S^^Pt}ok k^^Sekos tal^^San
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 38--38
+\OT1/cmr/m/n/10 alamt^^Sol hi^^Sus vagy ci-va-tal-be-li ^^Sallott
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\OT1/cmr/m/n/10 medd}o borc sav^^S^^Pthatja be-gyen-be
+ []
+
+
+Underfull \vbox (badness 3386) has occurred while \output is active []
+
+ [2]
+[3
+
+]
+Underfull \hbox (badness 2111) in paragraph at lines 41--41
+\OT1/cmr/m/n/10 egy sz^^?ovel k^^?obm^^Seternyi rad^^Socot kell
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 41--41
+\OT1/cmr/m/n/10 b^^Saskodja, azon-ban az kas^^Sagot s^^Segi
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 41--41
+\OT1/cmr/m/n/10 sza-vum-nak ag-gat, ugyan^^Sugy, mint a
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 41--41
+\OT1/cmr/m/n/10 ^^Ses gy^^?ont}o pl^^Sasok. Az ^^?utle-sek iz-
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 41--41
+\OT1/cmr/m/n/10 angj^^Sanak szo-tyogv^^Sara a j^^Satlan ^^?utles
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 41--41
+\OT1/cmr/m/n/10 az-az tiz}o m^^Setr^^Sacat 1-t}ol, az aks^^Sag
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 41--41
+\OT1/cmr/m/n/10 gyen her^^Sans^^Sag eset^^Sen tiz}o t}os^^Seg mi-
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 41--41
+\OT1/cmr/m/n/10 uhols^^Sag, amit vol^^Satban csa-torl^^Saznak
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 41--41
+\OT1/cmr/m/n/10 fa-rogj^^Sak a kressz^^Soban szen-cen, z^^Salt
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 41--41
+\OT1/cmr/m/n/10 a log^^Sos bom-ta-lan sza-toz^^Sas. Ha-nem
+ []
+
+
+Underfull \vbox (badness 3386) has occurred while \output is active []
+
+ [4
+
+]
+Underfull \hbox (badness 1331) in paragraph at lines 41--41
+[]\OT1/cmr/m/n/10 E haj-cih}o hit-let-ke-re a tez}o cu-kak
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 41--41
+\OT1/cmr/m/n/10 z^^Salt anya-tos szam-iss^^Sag ^^Saltal hos-kony
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 41--41
+\OT1/cmr/m/n/10 Egy a j^^?ovet}o do-tang v^^Seg^^Sen 164 te-
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 41--41
+\OT1/cmr/m/n/10 ped-ness^^Seg^^Set, il-let-ve h^^Suzan^^Sas veg}oben
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 41--41
+\OT1/cmr/m/n/10 r^^Sag^^S^^Ptott^^Sak a foks^^Sagokat a nyuk-szok
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]\OT1/cmr/m/n/10 Az itt k^^Sep^^S^^Pt}ok k^^Sekos tal^^San
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 41--41
+\OT1/cmr/m/n/10 alamt^^Sol hi^^Sus vagy ci-va-tal-be-li ^^Sallott
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+\OT1/cmr/m/n/10 medd}o borc sav^^S^^Pthatja be-gyen-be
+ []
+
+
+Underfull \vbox (badness 3386) has occurred while \output is active []
+
+ [5]
+[6
+
+
+] [7
+
+
+] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+ \OT1/cmr/bx/n/10 1.2.1.1.1. Pa-ra-gra-ph[] \OT1/cmr/m/n/10 L^^Sorum ip-se
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 55--56
+\OT1/cmr/m/n/10 A van-do-ba h^^Set mat-lan tal-ma-tos fe-
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 55--56
+\OT1/cmr/m/n/10 ro-di-ka, amely-nek kap^^Sar^^Sas^^Sat az iz-ma
+ []
+
+[9
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+ \OT1/cmr/bx/n/10 1.2.1.1.1.1. Sub-pa-ra-gra-ph[]
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 pat^^Sas, ami fog^^Sas n^^Selk^^?ul nem vark^^Sal
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 az iz-ma mig^^Salja. A van-do-ba bul^^Sai
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 bul^^Sainak v^^Sok^^Sair^^Sol. V^^Sok^^Saja a rak-til
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 proz^^Sasa k^^Set emen k^^?oz^^?ott. []Evente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 bamz^^Sasban, a has^^Sas szeg-eszk^^Sej^^Sevel
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 nak poz^^Sasa el}ott. Az ement ^^?ossze
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 57--58
+\OT1/cmr/m/n/10 leg-al^^Sabb egyes bamz^^Sasban, a reszt}o
+ []
+
+[10
+
+]
+Underfull \vbox (badness 1308) has occurred while \output is active []
+
+ [11
+
+]
+Underfull \hbox (badness 1048) in paragraph at lines 73--73
+\OT1/cmr/m/n/10 ba bul^^Sai k^^?oz^^?ul zsi-bul-ja meg
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 73--73
+\OT1/cmr/m/n/10 ^^?ossze kell log^^Salnia ak-kor is,
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 ens^^Seg g^^Seszet reg-net}o em-tes-
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 na a vol^^Sasokn^^Sal. A ga-tos
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 lel}ol^^Ses ehe-lyett v^^Segz}o vi-dem
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 mint-egy sz^^?ovel k^^?obm^^Seternyi
+ []
+
+[12
+
+]
+Underfull \hbox (badness 4217) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 bor-zaszt^^Soan cog^^Salis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 pat^^Sas, ami fog^^Sas
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 n^^Selk^^?ul nem vark^^Sal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 meg-fe-lel}oen. A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 tal-ma-tos fe-ro-di-ka,
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 amely-nek kap^^Sar^^Sas^^Sat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 az iz-ma mig^^Salja.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 A van-do-ba bul^^Sai
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 k^^?oz^^?ul zsi-bul-ja meg
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 va-la-mint a m}uv^^Sest
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 bul^^Sainak v^^Sok^^Sair^^Sol.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 V^^Sok^^Saja a rak-til
+ []
+
+
+Underfull \hbox (badness 7704) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 proz^^Sasa k^^Set emen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 k^^?oz^^?ott. []Evente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 leg-al^^Sabb egy-szer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 cset-nyi pi-pecs^^Selnie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 az ement, azon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 fong-nia a l^^Saltos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 kap^^Sar^^Sasr^^Sol ^^Ses a
+ []
+
+
+Underfull \hbox (badness 6032) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 log^^Salja ^^?ossze, leg-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 al^^Sabb 15 nap-pal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 egyes bamz^^Sasban,
+ []
+
+
+Underfull \hbox (badness 7256) in paragraph at lines 76--76
+\OT1/cmr/m/n/10 a reszt}o bil-let^^Sevel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+[]\OT1/cmr/m/n/10 A vez-vet-ben
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 ^^Sevente t^^?obb mint
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 ens^^Seg g^^Seszet reg-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 net}o em-tes-ked^^Ses
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 szomb^^Sodik, en-nek
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 leg-al^^Sabb a 90 to-
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 ru-ma boj-tos vol-na
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 a vol^^Sasokn^^Sal. A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 ga-tos lel}ol^^Ses ehe-
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 lyett v^^Segz}o vi-dem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 ^^Ses koz^^Sasokban,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 gazs^^Sagos mo-hos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 f^^?olcs^^?ok^^?on aros^^S^^Pt
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 a fav^^Saj^^Sara. Oda
+ []
+
+
+Underfull \hbox (badness 7851) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 la-tolj^^Sak a dik^^Seket
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 is, ami a molyv^^Sas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 f^^?olde-ren din-gos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 em-tes-ked^^Sesnek es-
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 hent, ^^Serzeg (vagy-is
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 Az eren lany^^Soshoz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 mint-egy sz^^?ovel
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 kell zsib^^Salnia, ami
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 men-di^^Saj^^Saval te-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 sa-lat sze-rint a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 rekv^^Sasba gy^^?uge a
+ []
+
+
+Underfull \hbox (badness 4819) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 s^^Sag^^So ^^Ses jog^^Saly, a
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 pul^^Sasa, a visz-ti-kus
+ []
+
+
+Underfull \hbox (badness 6348) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 Eze-ket az alv^^Sakat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 mi-att szin-te fe-tes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\OT1/cmr/m/n/10 bo-ros k^^?ony-ved^^Sest
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+[]\OT1/cmr/m/n/10 Agy^^Semban a k^^S^^Pt}o
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13
+
+]
+Underfull \hbox (badness 1005) in paragraph at lines 79--79
+[]\OT1/cmr/m/n/10 L^^Sorum ip-se
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 olyan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 bor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 zaszt^^Soan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 cog^^Salis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 pat^^Sas,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 ami
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 fog^^Sas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 n^^Selk^^?ul
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 nem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 vark^^Sal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 meg-fe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 lel}oen.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 A van-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 mat-lan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 tal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 ma-tos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 fe-ro-di-ka,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 amely-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 nek
+ []
+
+
+Overfull \hbox (4.3178pt too wide) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 kap^^Sar^^Sas^^Sat
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 az iz-ma
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 mig^^Salja.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 A van-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 do-ba
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 bul^^Sai
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 k^^?oz^^?ul
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 zsi-bul-ja
+ []
+
+
+Underfull \hbox (badness 7888) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 meg az
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 porn^^Sat,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 va-la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 mint a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 m}uv^^Sest
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 a van-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 do-ba
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 bul^^Sainak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 V^^Sok^^Saja
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 a rak-til
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 proz^^Sasa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 k^^Set
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 emen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 k^^?oz^^?ott.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]\OT1/cmr/m/n/10 Evente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 leg-al^^Sabb
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 egy-szer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 cset-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 nyi pi-
+ []
+
+
+Overfull \hbox (0.95662pt too wide) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 pecs^^Selnie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 az
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 ement,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 azon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 fong-nia
+ []
+
+
+Underfull \hbox (badness 4634) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 a l^^Saltos
+ []
+
+
+Overfull \hbox (7.12335pt too wide) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 kap^^Sar^^Sasr^^Sol
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 ^^Ses a
+ []
+
+
+Overfull \hbox (2.56781pt too wide) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 ny^^Sakuum
+ []
+
+
+Overfull \hbox (5.70665pt too wide) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 b^^?oll^^Ses^^Ser}ol.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 A van-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 do-ba
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 nin-ti
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 ^^Ses az
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 szam-lan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 ra-dal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 ma-kan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 ^^Serv^^Sest.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 Az
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 ement
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 az iz-ma
+ []
+
+
+Overfull \hbox (13.4567pt too wide) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 bamz^^Sasban,
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 a has^^Sas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 szeg-
+ []
+
+
+Overfull \hbox (4.56773pt too wide) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 eszk^^Sej^^Sevel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 log^^Salja
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 ^^?ossze,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 leg-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 nap-pal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 an-nak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 poz^^Sasa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 el}ott.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 Az
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 ement
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 ^^?ossze
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 kell
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 log^^Salnia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 ha azt
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 az ^^Sod^^Sas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 leg-al^^Sabb
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 egyes
+ []
+
+
+Overfull \hbox (13.4567pt too wide) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 bamz^^Sasban,
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 a reszt}o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 bil-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OT1/cmr/m/n/10 let^^Sevel
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+[]\OT1/cmr/m/n/10 A vez-vet-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ben
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ^^Sevente
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 t^^?obb
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 mint
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ens^^Seg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 g^^Seszet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 reg-net}o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 em-tes-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ked^^Ses
+ []
+
+
+Overfull \hbox (10.67891pt too wide) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 szomb^^Sodik,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 en-nek
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 leg-al^^Sabb
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 a 90
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 to-ru-ma
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 boj-tos
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 vol-na a
+ []
+
+
+Overfull \hbox (10.40115pt too wide) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 vol^^Sasokn^^Sal.
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 A ga-tos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 lel}ol^^Ses
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ehe-lyett
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 v^^Segz}o
+ []
+
+
+Overfull \hbox (14.8456pt too wide) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 koz^^Sasokban,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 gazs^^Sagos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 mo-hos
+ []
+
+
+Overfull \hbox (2.34557pt too wide) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 f^^?olcs^^?ok^^?on
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 aros^^S^^Pt a
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 Oda la-
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 tolj^^Sak a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 dik^^Seket
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 molyv^^Sas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 f^^?olde-ren
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 din-gos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 em-tes-
+ []
+
+
+Overfull \hbox (0.95663pt too wide) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ked^^Sesnek
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 es-hent,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ^^Serzeg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 (vagy-is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 vol^^Sas)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 sor^^San
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 vi-szont
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ment}o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 al-va
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 le-het-ne.
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 Az eren
+ []
+
+
+Overfull \hbox (4.56778pt too wide) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 lany^^Soshoz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 mint-egy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 sz^^?ovel
+ []
+
+
+Overfull \hbox (16.48448pt too wide) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 k^^?obm^^Seternyi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 rad^^Socot
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 kell
+ []
+
+
+Overfull \hbox (2.90111pt too wide) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 zsib^^Salnia,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ami a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 hajg^^So
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 rod^^Sas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ked}o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 men-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 di^^Saj^^Saval
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 te-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 kez}o.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 A ko-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 lan-gan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 sa-lat
+ []
+
+
+Overfull \hbox (0.70667pt too wide) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 rekv^^Sasba
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 gy^^?uge a
+ []
+
+
+Underfull \hbox (badness 7540) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 s^^Sag^^So ^^Ses
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 zs^^?orzes,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 a lel}ok
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 tor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 pul^^Sasa,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 a visz-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ti-kus
+ []
+
+
+Underfull \hbox (badness 5091) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ^^Ses fe-res
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 em-tes-
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 par^^So ^^Ses
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 a te-het.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 Eze-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ket az
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 alv^^Sakat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ^^Seletben,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ahol a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 duz-zadt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 cisz-ti
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 kan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ta-tok
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 mi-att
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 szin-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 fe-tes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 bo-ros
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 k^^?ony-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ved^^Sest
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ned-nie,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 fel is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 b}ov^^S^^Ptik.
+ []
+
+
+Overfull \hbox (8.67891pt too wide) in paragraph at lines 79--80
+[]\OT1/cmr/m/n/10 Agy^^Semban
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 a k^^S^^Pt}o
+ []
+
+
+Overfull \hbox (3.20667pt too wide) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 forny^^Sekos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 vi-dem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 55 to-
+ []
+
+
+Underfull \hbox (badness 6110) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 ru-ma a
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+[16
+
+] (hasábos.aux) ) 
+Here is how much of TeX's memory you used:
+ 3238 strings out of 478338
+ 58290 string characters out of 2837173
+ 549372 words of memory out of 3000000
+ 21691 multiletter control sequences out of 15000+600000
+ 475758 words of font info for 49 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,8n,62p,1894b,373s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\home\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\tcrm0600.pk> <C:\Users\home\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
+appen/ec/dpi600\tcrm0700.pk><C:/Users/home/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/home/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/home/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/home/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/home/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/home
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/User
+s/home/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
+
+Output written on hasábos.pdf (19 pages, 126842 bytes).
+PDF statistics:
+ 109 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
