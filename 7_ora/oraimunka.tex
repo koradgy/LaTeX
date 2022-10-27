@@ -1,56 +1,154 @@
 \documentclass{article}
-
-\usepackage{ifthen}
-\usepackage{pgffor}
-\usepackage{multicol}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{lipsum}
+\usepackage{hulipsum}
 \usepackage{amsmath}
 \usepackage{amsfonts}
+\usepackage{amssymb}
 \usepackage{mathtools}
-\usepackage{lipsum}
 \usepackage{xcolor}
 \usepackage{colortbl}
 \usepackage{array}
-\DeclareMathOperator{\argmax}{arg max}
+\usepackage{ifthen}
+\usepackage{pgffor}
+\usepackage{multicol}
+\usepackage{intcalc}
 
-\newenvironment{sajat}[1]%
-{\vspace{1ex}\hrule\vspace{1ex}%
-\begin{center}\end{center}}%
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\DeclarePairedDelimiter{\kocka}{[}{]}
+\newcommand{\VE}[1]{\mathbb{E}\kocka*{#1}}
+\DeclarePairedDelimiterX{\vonal}[2]{[}{]}{#1 \;\delimsize\vert\; #2}
+\newcommand{\FVE}[2]{\mathbb{E}\vonal*{#1}{#2}}
+
+\newenvironment{csikos}%
+{\vspace{1ex}\hrule\vspace{1ex}}%
 {\vspace{1ex}\hrule\vspace{1ex}}
 
-\newcounter{kgitem}
+\newenvironment{csikos*}[1][Kulcsgondolatok]{\begin{center}\begin{minipage}{0,8\textwidth}%
+\vspace{1ex}\hrule\vspace{1ex}\begin{center}\Large\textbf{#1}\end{center}}{\vspace{1ex}\hrule\vspace{1ex}%
+\end{minipage}\end{center}}
 
 
 \begin{document}
 \begin{huge}
-1.feladat
+1. feladat
 \end{huge}
 \\
-a)
 \[
-x^* := \underset{x \in [1,0]}{\argmax} x \log_{2}(x)
+X^* := \argmax_{x\in[0, 1]} x \log_2(x)
 \]
+
+\[
+\ceil{x}, \ceil*{\frac{5}{3}}
+\]
+
+\[\VE{\sum_{i=1}^{N}{X_i}} = \VE{\FVE{\sum_{i=1}^{N}{x_i}}{N}}\]
+\clearpage
+\begin{huge}
+2. feladat
+\end{huge}
 \\
-b)
-\[
-\lceil x \rceil , \lceil \frac{5}{3} \rceil
-\]
-\\
-c)
-\[
-E \left[\sum_{i=1}^n X_i \right] = E \left[E\left[ \sum_{i=1}^n X_i \bigg\vert N \right]\right]
-\]
+\begin{csikos}
+\lipsum[3]
+\end{csikos}
+
+\begin{csikos*}
+\lipsum[4]
+\end{csikos*}
 
 \clearpage
 \begin{huge}
-2.feladat
+3. feladat
 \end{huge}
-\begin{sajat}{Title}
-\lipsum[1]
-\end{sajat}
-\clearpage
+\\
 
-\begin{huge}
-3.feladat
-\end{huge}
+\begin{csikos*}
+\newcommand{\kgitem}{\par\makebox[1 cm]{\stepcounter{szamlalo} \theszamlalo}}
+\newcounter{szamlalo}
+\newcounter{osszamlalo}
+\counterwithin{szamlalo}{osszamlalo}
 \kgitem
+\section{Elso}
+\stepcounter{osszamlalo}
+\kgitem
+csiga
+biga
+toldki
+\kgitem
+\kgitem
+\kgitem
+\kgitem
+\section{Masodik}
+\stepcounter{osszamlalo}
+\kgitem
+\lipsum[2]
+\kgitem
+\kgitem csiga
+\kgitem biga
+A számláló értéke: \theszamlalo
+\end{csikos*}
+
+\clearpage
+
+
+
+\newcolumntype{h}[2]{>{%
+\ifthenelse{%
+\isodd{\value{rownum}}}%
+{%
+\cellcolor{#1}\color{#2}}%
+{\cellcolor{#2}\color{#1}%
+}%
+}c}%
+
+\begin{huge}
+4. feladat
+\end{huge}
+
+\begin{table}
+\rowcolors[]{2}{blue!20}{yellow!20}
+\begin{tabular}{h{white}{black} h{white}{black} h{white}{black}}
+a & b & c \\
+a & b & c \\
+a & b & c \\
+a & b & c \\
+a & b & c \\
+a & b & c \\
+\end{tabular}
+\end{table}
+
+\clearpage
+
+\begin{huge}
+5. feladat
+\end{huge}
+
+\newcounter{y}
+\newcounter{x}
+
+\begin{equation}
+\foreach \x/\y in {1/4, 2/7, 4/3, 3/2, 5/2, 6/8} %
+{ \frac{\x}{\y}, }
+\end{equation}
+
+\clearpage
+
+\begin{huge}
+6. feladat
+\end{huge}
+
+\newcounter{a}
+\newcounter{b}
+\newcounter{c}
+
+\begin{multicols}{4}
+\whiledo{\value{b}<60}{\stepcounter{b}\stepcounter{a}\stepcounter{c}\arabic{b}~%
+\ifthenelse{\equal{\intcalcMod{\value{c}}{3}}{0}}{cikk}{}%
+\ifthenelse{\equal{\intcalcMod{\value{a}}{5}}{0}}{cakk}{}%
+\\}
+\end{multicols}
+
 \end{document}

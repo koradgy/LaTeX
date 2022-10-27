@@ -12,19 +12,10 @@
 \author{Én}
 \date{2022}
 
-
 \begin{document}
-
-
 
 \section{frame 1}
 \frame{\titlepage}
-
-\begin{frame}
-\frametitle{1.feladat}
-\framesubtitle{alcím}
-szöveg szöveg 
-\end{frame}
 
 \section{tartalom}
 \begin{frame}
@@ -32,6 +23,11 @@ szöveg szöveg
 \tableofcontents
 \end{frame}
 
+\begin{frame}
+\frametitle{1.feladat}
+\framesubtitle{alcím}
+szöveg szöveg 
+\end{frame}
 
 \section{verbatim}
 \subsection{subsection 1}
@@ -109,7 +105,7 @@ Alertblock tartalma
 \framesubtitle{Proof, Theorem}
 
 \begin{proof}
-Bizonyítás nagyon szép nagyon jó
+\visible<2>{Bizonyítás nagyon szép nagyon jó}
 \end{proof}
 \begin{theorem}
 Theorem nagyon szép nagyon jó
@@ -125,6 +121,19 @@ Theorem nagyon szép nagyon jó
 
 itt most nem tudom mi történik :(
 \end{semiverbatim}
+\end{frame}
+
+\begin{frame}
+\frametitle{5. feladat}
+\framesubtitle{Azonos helyen különböző képek}
+
+\begin{columns}[t]
+\column{.5\textwidth}
+\centering
+	\onslide<1>{\includegraphics[scale=.03]{lyozsi1.jpg}}
+	\onslide<2>{\includegraphics[scale=.03]{lyozsi2.jpg}}
+\end{columns}
+
 \end{frame}
 
 
