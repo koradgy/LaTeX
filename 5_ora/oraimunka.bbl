@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+
+\bibitem{abrharber03}
+Paul~W. Abrahams, Kathryn~A. Hargreaves, and Karl Berry.
+\newblock {\TeX} for the impatient.
+\newblock 2003.
+
+\bibitem{bujfaz}
+GyĂśngyi BujdosĂł and Attila Fazekas.
+\newblock {\em {\TeX} kezdĹlĂŠpĂŠsek}.
+\newblock Tertia KiadĂł.
+
+\bibitem{g4gbin}
+GeeksforGeeks.
+\newblock BinĂĄris keresĂŠs ĂŠs rendezĂŠs python-nal, 10 2022.
+
+\bibitem{knuth84}
+Donald~E. Knuth.
+\newblock The {\TeX}book.
+
+\bibitem{lamport94}
+Leslie Lamport.
+\newblock {\em {\LaTeX}: a document preparation system}.
+\newblock Addison Wesley, Massachusetts, 2 edition, 1994.
+
+\bibitem{tomacs21}
+Tibor TĂłmĂĄcs.
+\newblock {\LaTeX}.
+\newblock 2021.
+
+\end{thebibliography}
