@@ -1,0 +1,129 @@
+\documentclass[twocolumn]{report}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\fancyhead[R]{\thepage}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyfoot[C]{xd csoport}
+\fancypagestyle{plain}{%
+\fancyhf{}%
+\fancyhead[R]{\thepage}}
+\usepackage{t1enc}
+\frenchspacing
+\usepackage{hulipsum}
+
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{multirow}
+
+\usepackage{amsmath}
+\usepackage{mathtools} 
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\theoremstyle{definition}
+
+\usepackage[magyar]{babel}
+
+\newtheorem{defin}{Definíció}
+\newtheorem{tet}{Tétel}
+
+\usepackage{algpseudocode}
+\usepackage{algorithm} 
+\floatname{algorithm}{Algoritmus}
+
+\begin{document}
+\pagestyle{fancy}
+
+\title{Zárthelyi Dolgozat \\\Large xy csoport}
+\author{György ZF440N}
+\date{\today}
+\maketitle
+\tableofcontents
+
+\chapter{Első feladat}
+\section{Első szakasz}
+\hulipsum[1-12]
+\section{Második szakasz}
+\hulipsum[13-24]
+
+\chapter{Táblázat}
+\begin{table*}
+\caption{Egy vállalat kimutatása}
+\begin{center}
+\begin{tabular}{c|c|>{\columncolor{green!30}}r>{\columncolor{red!30}}r>{\columncolor{yellow!30}}r}
+év & ágazat & bevétel & kiadás & nettó bevétel \\ \hline
+\multirow{4}{*}{2020} & marketing & xx & xx & xx \\
+ & humán erőforrás & \multicolumn{3}{c}{N/A} \\
+ & logisztika & xx & xx & xx \\
+ & gyártás & xx & xx & xx \\ \hline
+\multirow{4}{*}{2021} & marketing & \cellcolor{white}N/A & xx & \cellcolor{white}N/A \\
+ & humán erőforrás & xx & xx & xx \\
+ & logisztika & xx & xx & xx \\
+ & gyártás & xx & \multicolumn{2}{c}{N/A}
+\end{tabular}
+\end{center}
+\end{table*}
+
+\hulipsum
+
+\chapter{Matematika}
+\begin{defin}[Mátrix szorzás]
+Legyenek $m,\textcolor{red}n,r \in \mathbb{Z}^+$, $A \in \mathbb{R}^{m \times \textcolor{red}n}$, és $B \in \mathbb{R}^{\textcolor{red}n \times r}$. Bontsuk fel $A$-t sorvektoraival, $B$-t pedig oszlopvektoraival.
+\begin{equation}
+A = \begin{pmatrix}
+a_1^T\\
+\cellcolor{red!30}\hphantom{a_2^T} a_2^T \hphantom{a_2^T}\\
+\vdots \\
+a_m^T\\
+\end{pmatrix}
+\quad
+B = \begin{pmatrix}
+ & \cellcolor{blue!30} \\
+b_1 & \cellcolor{blue!30} b_2 & \cdots & b_r  \\
+ & \cellcolor{blue!30}
+\end{pmatrix}
+\end{equation}
+Mind $a_i$, mind $b_j \in \mathbb{R}^{\textcolor{red}{n}}$, így az $a_i^T b_j$ skalár szorzat létezik. 
+Az $A \cdot B$ mátrix szorzatot a következőképpen definiáljuk:
+
+\begin{equation}
+A \cdot B := \begin{pmatrix}
+a_1^T b_1 & \cellcolor{blue!15}a_1^T b_2 & \cdots & a_1^T b_r \\
+\rowcolor{red!15} a_2^T b_1 & \cellcolor{purple!30} a_2^T b_2 & \cdots & a_2^T b_r\\
+\vdots & \cellcolor{blue!15} \vdots & \ddots & \vdots \\
+a_m^T b_1 & \cellcolor{blue!15}a_m^T b_2 & \cdots & a_m^T b_r
+\end{pmatrix}
+\end{equation}
+\end{defin}
+
+\begin{tet}[Mátrix szorzás tulajdonságai]
+A mátrix szorzás asszociatív, de nem kommutatív művelet.
+\end{tet}
+\begin{tet}[Mátrix szorzás determinánsa]
+Ha $A,b \in \mathbb{R}^{n \times n}$ négyzetes mátrixok, akkor
+\[det(A \cdot B) = det(A) \cdot det(B).\]
+\end{tet}
+
+\chapter{Pszeudokód}
+
+\hulipsum[1]
+\begin{algorithm}
+\caption{Lineáris keresés}
+\begin{algorithmic}[3]
+\Procedure{linesearch}{A,ertek,@index}
+\Require A tömb érték a keresett érték
+\Ensure index (az első) A-beli index, hogy $A_i$ = érték, vagy érvénytelen (0)
+\State i $\gets$ 1
+\While{$A_i \neq$ ertek \textbf{and} i < Hossz[A]}
+\State \Call{inc}{i}
+\EndWhile
+\If{i < Hossz[A]}
+\State index $\gets$ i
+\Else
+\State index $\gets$ 0
+\EndIf
+\State \Return index
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+\hulipsum
+\end{document}
