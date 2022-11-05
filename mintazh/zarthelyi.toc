@@ -1,0 +1,5 @@
+\select@language {magyar} \contentsline {chapter}{\numberline {1}Első feladat}{2}{}%
+\select@language {magyar} \contentsline {section}{\numberline {1.1}Első szakasz}{2}{}%
+\select@language {magyar} \contentsline {section}{\numberline {1.2}Második szakasz}{4}{}%
+\select@language {magyar} \contentsline {chapter}{\numberline {2}Táblázat}{7}{}%
+\select@language {magyar} \contentsline {chapter}{\numberline {3}Matematika}{9}{}%
