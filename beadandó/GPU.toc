@@ -1,0 +1,9 @@
+\select@language {magyar} \beamer@sectionintoc {1}{Bevezetés}{3}{0}{1}
+\select@language {magyar} \beamer@subsectionintoc {1}{1}{Története}{4}{0}{1}
+\select@language {magyar} \beamer@subsectionintoc {1}{2}{GPU-k fejlődése}{6}{0}{1}
+\select@language {magyar} \beamer@sectionintoc {2}{Felépítés}{7}{0}{2}
+\select@language {magyar} \beamer@subsectionintoc {2}{1}{GPU}{8}{0}{2}
+\select@language {magyar} \beamer@subsectionintoc {2}{2}{Video BIOS}{9}{0}{2}
+\select@language {magyar} \beamer@subsectionintoc {2}{3}{Video memória}{10}{0}{2}
+\select@language {magyar} \beamer@subsectionintoc {2}{4}{Csatlakozók}{11}{0}{2}
+\select@language {magyar} \beamer@sectionintoc {3}{Beépítés}{12}{0}{3}
